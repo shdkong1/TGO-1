@@ -1,4 +1,12 @@
+# The A* Algorithm
+# This algorithm (pronounced "A-star") is a graph traversal and path search
+# algorithm. It can be seen as an extension of Dijkstra's algorithm. It achieves
+# better performance by using heuristics to guide its search.
+
 import util
+
+# The code below is adapted from the pseudocode as described in Wikipedia:
+# https://en.wikipedia.org/wiki/A*_search_algorithm
 
 
 def a_star(graph, start, end):

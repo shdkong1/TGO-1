@@ -1,5 +1,15 @@
+# Johnson's Algorithm
+# This algorithm is a way to find the shortest paths between all pairs
+# of vertices in an edge-weighted directed graph. It allows some of the edge
+# weights to be negative numbers. It works by using the Bellman-Ford algorithm
+# to compute a transformation of the input graph that removes all negative weights.
+# This allows Dijkstra's algorithm to be used on the transformed graph.
+
 import bellman_ford
 import dijkstra
+
+# The code below is adapted from the pseudocode as described in Wikipedia:
+# https://en.wikipedia.org/wiki/Johnson%27s_algorithm
 
 
 def johnson(graph, start, end):

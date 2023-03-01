@@ -1,4 +1,11 @@
-import util
+# The Bellman-Ford Algorithm
+# This algorithm computes the shortest path from a single source vertex
+# to all the other vertices in a weighted graph. It is slower than Dijkstra's,
+# but more versatile as it is capable of handling graphs in which some
+# edge weights are negative numbers.
+
+# The code below is adapted from the pseudocode as described in Wikipedia:
+# https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm
 
 
 def bellman_ford(graph, start):

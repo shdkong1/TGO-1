@@ -1,3 +1,5 @@
+# This file contains the utility functions used by the algorithms in this project.
+
 def graph_builder(filename):
     graph = []
 
